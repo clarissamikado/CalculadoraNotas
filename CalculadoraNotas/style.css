@@ -5,7 +5,7 @@
 }
 
 h2, h3, p, #res {
-  color: white;
+  color: rgb(245, 245, 245);
 }
 
 h2 {
@@ -27,7 +27,7 @@ p {
   border: 0px solid #000000;
   border-radius: 50px;
   text-align: center;
-  width: 80%;
+  width: 50%;
   margin: 20px auto;
   background: #74d2b9;
 }
@@ -36,6 +36,7 @@ input#n1, #n2, #n3, #submit {
   width: 100px;
   height: 30px;
   font-size: 15pt;
+  color: #3f3c3c;
   text-align: center;
   border-radius: 8px;
   background-color: #b8f3e3;
@@ -49,7 +50,10 @@ input#n1, #n2, #n3, #submit {
 
 input#submit {
   border: none;
-  color: gray;
+  width: 150px;
+  height: 50px;
+  color: #3f3c3c(0, 12, 5, 0.651);
+  background-color: #f6fdfb;
 }
 
 #res {
